@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/42/Looseleaf_Legal_Pad_Background.svg");
+}
+
+#containerId {
+  
+  padding: 0px;
+  align-content: center;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#form {
+  height: 100px;
+  color: green;
+}
+.col-sm-6 {
+  border: 3px;
+  border-color: #c47787;
+}
+#spacer {
+  height: 50px;
+}
+#spacer2 {
+  height: 50px;
+}
+
+.form-control{
+  background-color: rgb(255, 238, 0);
+  color: orangered;
+  margin: 5px;
+  font-family: 'Mali', cursive;
+  border-color: red;
+}
+
+#submitButton{
+  background-color: orange;
+  border-color: orangered;
+  color: red;
+  margin: 5px;
+  font-family: 'Mali', cursive;
+}
+
+#submitButton:hover {
+  transform: scale(1.08); 
+  background-color: rgb(255, 217, 0);
+  font-weight: bold;
+}
+
+#createNewAccountButton{
+  background-color: orange;
+  border-color: orangered;
+  color: red;
+  margin: 5px;
+  font-family: 'Mali', cursive;
+}
+
+#createNewAccountButton:hover {
+  transform: scale(1.08); 
+  background-color: rgb(255, 217, 0);
+  font-weight: bold;
+}
+
+#picture {
+  height: 150px;
+}
+
